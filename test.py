@@ -1,7 +1,10 @@
-print 'hello world'
+from flask import Flask
 
-print 'i love jj'
+app = Flask(__name__)
 
-print 'edit with git download'
+@app.route('/')
+def hello_world():
+    return 'wrajj!'
 
-print 'edit with pycharm'
+if __name__ == '__main__':
+    app.run()
