@@ -61,6 +61,7 @@ def wxtest():
     result = {
         'imgs':[
             {'src': 'http://wx3.sinaimg.cn/mw690/0069X71Lgy1fj7d54x9mkj30jz0drgnb.jpg'},
+            {'src': 'http://wx1.sinaimg.cn/mw690/0069X71Lgy1fj7d55kopuj30hs0hsq3d.jpg'},
             {'src': 'http://wx1.sinaimg.cn/mw690/0069X71Lgy1fj7d55kopuj30hs0hsq3d.jpg'}
         ]
     }
