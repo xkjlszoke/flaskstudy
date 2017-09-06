@@ -68,6 +68,18 @@ def wxtest():
     return jsonify(result)
 
 
+@app.route('/wxtestpost', methods=['POST'])
+def wxtestpost():
+    name = request.form['name']
+    id = request.form['id']
+    print name,id
+    result = {
+        'name': name+' love jj',
+        'id': id + ' is id'
+    }
+    return jsonify(result)
+
+
 def connect_db():
     return sqlite3.connect(app.database)
 
